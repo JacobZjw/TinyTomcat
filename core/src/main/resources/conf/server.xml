@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Server>
+    <Service name="Catalina">
+        <Connector port="8080" protocol="HTTP/1.1" connectionTimeout="200000"/>
+        <Engine name="Catalina" defaultHost="localhost">
+            <Host name="localhost" appBase="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps" unpackWARs="true">
+                <Context path="/" docBase=".\target\artifacts\SimpleProject"/>
+            </Host>
+        </Engine>
+    </Service>
+</Server>
