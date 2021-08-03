@@ -1,7 +1,6 @@
 ### Java template
 # Compiled class file
 *.class
-!target
 # Log file
 *.log
 logs
